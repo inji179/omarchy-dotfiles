@@ -16,6 +16,7 @@
 -- o.bind("SUPER + SHIFT + R", "SSH", "alacritty -e ssh your-server")
 o.bind("SUPER + E", "File manager", { omarchy = "nautilus" })
 o.bind("SUPER + B", "Browser", { omarchy = "browser" })
+o.bind("SUPER + N", "Browser",  hl.dsp.exec_cmd("firefox"))
 o.bind("SUPER + Q", "Close window", hl.dsp.window.close())
 o.bind("CTRL + SHIFT + 1", "screenshot", "omarchy-capture-screenshot")
 o.bind("CTRL + SHIFT + 3", "Screenrecording", "omarchy-capture-screenrecording --stop-recording || omarchy-menu toggle trigger.capture.screenrecord")
